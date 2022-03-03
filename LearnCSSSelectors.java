@@ -30,7 +30,7 @@ public class LearnCSSSelectors {
 	      driver.get(url);
 	      driver.findElement(By.cssSelector("#btn2")).click();
 	      Thread.sleep(2000);
-	      // key attribute
+	   
 	      driver.findElement(By.cssSelector("input[placeholder='First Name']")).sendKeys("Rajani");
 	// this is using with condition
 	      driver.findElement(By.cssSelector("input[placeholder='Last Name']")).sendKeys("Reddy");
